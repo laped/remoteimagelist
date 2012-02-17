@@ -1,0 +1,3 @@
+## Exclude file used by compilators, interpreters, etc.
+*/bin/*
+*/gen/*
