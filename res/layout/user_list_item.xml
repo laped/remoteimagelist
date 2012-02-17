@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ignition="http://github.com/ignition/schema"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="6dip" >
+
+    <dk.remoteimagelist.RemoteImageView
+        android:id="@+id/uli_profileThumb"
+        android:layout_width="40dip"
+        android:layout_height="53dip"
+        ignition:autoLoad="false"
+        ignition:progressDrawable="@drawable/progress_small"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/uli_profileThumb"
+        android:orientation="vertical"
+        android:paddingLeft="6dip" >
+
+        <TextView
+            android:id="@+id/uli_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/uli_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#36302E"
+            android:textSize="12sp" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<color name="action_bar_divider">#5DACBC</color>
+		<color name="usernameFemale">#C3326D</color>
+		<color name="usernameMale">#077F9E</color>
+		<color name="usernameUnknown">#8C8C8C</color>
+		<color name="loginHeadline">#FFFFFF</color>
+		<color name="listSeperator">#e9daad</color>
+		<color name="windowBackground">#FFF8F4E1</color>
+		<color name="smallHeaderTitle">#E05B5B</color>
+</resources>

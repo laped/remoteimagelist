@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<style name="listWdivider">
+				<item name="android:layout_width">fill_parent</item>
+				<item name="android:layout_height">wrap_content</item>
+				<item name="android:divider">#ffcccccc</item>
+				<item name="android:footerDividersEnabled">true</item>
+				<item name="android:dividerHeight">1sp</item>
+		</style>
+</resources>
