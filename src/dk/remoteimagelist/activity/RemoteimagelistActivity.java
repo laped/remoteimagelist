@@ -30,6 +30,7 @@ public class RemoteimagelistActivity extends ListActivity {
         profiles.add(new ProfileItem("username 1", ""));
         profiles.add(new ProfileItem("username 2", "http://dl.dropbox.com/u/4811285/Pictures/android/Thumbnail_634508342213746514.jpg"));
         profiles.add(new ProfileItem("username 3", "http://dl.dropbox.com/u/4811285/Pictures/android/Thumbnail_634508363812036553.jpg"));
+        //profiles.add(new ProfileItem("username 4", "http://dl.dropbox.com/u/4811285/Pictures/android/Thumbnail_634508342213746514.jpg"));
         
         adapter = new ProfileAdapter(this, R.layout.user_list_item, profiles);        
         setListAdapter(adapter);
